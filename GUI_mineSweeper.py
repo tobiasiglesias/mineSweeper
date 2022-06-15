@@ -7,11 +7,13 @@ ventana = Tk()
 botones_celdas = []
 lista_celdas = []
 perdiste = False
-# filas_num = int(input("Filas?"))
-# columnas_num = int(input("Columnas?"))
-filas_num = 30
-columnas_num = 30
+filas_num = int(input("Filas?"))
+columnas_num = int(input("Columnas?"))
 normales_restantes = filas_num * columnas_num
+
+
+#todo: agregar tablero con cantidad de bombas y banderas
+#todo: agregar boton de reset
 
 
 def iniciar_programa(filas, columnas, lista_celdas):
